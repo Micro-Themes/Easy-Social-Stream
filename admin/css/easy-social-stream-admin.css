@@ -1,0 +1,108 @@
+/* CSS Document */
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.wp-social-stream-width-settings {
+	display:none;	
+}
+
+.wp-social-stream-width-settings.active {
+	display:block;	
+}
+
+.wpsocial_stream_setting_customcss {
+	width:70% !important;
+	min-height:300px !important;	
+	font-size:12px !important;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+	padding:15px !important;
+}
+
+.wpsocial-stream-setting-post-custom-colors {
+	display:none;	
+}
+
+.wpsocial-stream-setting-post-custom-colors.active {
+	display:block;	
+}
+
+.wpsocial-stream-setting-filter-options {
+	display:none;		
+}
+
+.wpsocial-stream-setting-filter-options.active {
+	display:block;	
+}
+
+.wpsocial-stream-help-text {
+	clear: both;
+    color: #777;
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 14.7%;
+    padding-top: 2px;
+}
+
+.wpsocial-stream-help-text.facebook {
+	padding-left:11.8%;	
+}
+
+.wpsocial-content-divider {
+	height:1px;
+	width:70px;
+	background-color:#BFBFBF;
+	margin:20px 0;
+}
+
+.wpsocial-shortcode-options-container {
+	display:none;	
+}
+
+body.easy-social-stream_page_wpsocial_stream_global_settings input[type="text"], 
+body.easy-social-stream_page_wpsocial_stream_twitter input[type="text"], 
+body.easy-social-stream_page_wpsocial_stream_facebook input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_googleplus input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_youtube input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_vimeo input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_dribble input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_stumbleupon input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_instagram input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_rss input[type="text"],
+body.easy-social-stream_page_wpsocial_stream_tumblr input[type="text"]
+{
+    background-color: #fff !important;
+    font-size: 1.2em !important;
+    height: auto !important !important;
+    line-height: 100% !important;
+    margin: 0 !important;
+    outline: 0 none !important;
+    padding: 8px !important;
+    width: 500px !important;
+	color:black !important;
+	height: auto !important;
+}
+
+body.easy-social-stream_page_wpsocial_stream_global_settings input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_twitter input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_facebook input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_googleplus input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_youtube input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_vimeo input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_dribble input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_stumbleupon input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_instagram input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_rss input[type="text"].small-field,
+body.easy-social-stream_page_wpsocial_stream_tumblr input[type="text"].small-field
+{
+	width:55px !important;	
+}
+
+
+

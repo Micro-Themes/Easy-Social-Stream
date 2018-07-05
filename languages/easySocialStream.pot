@@ -1,0 +1,883 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Easy Social Stream\n"
+"POT-Creation-Date: 2017-01-08 23:57-0500\n"
+"PO-Revision-Date: 2017-01-08 23:57-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: easy-social-stream.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/functions.php:9 css/functions.php:9
+msgid "Easy Social Stream"
+msgstr ""
+
+#: admin/functions.php:11 css/functions.php:11
+msgid "Facebook"
+msgstr ""
+
+#: admin/functions.php:13 css/functions.php:13
+msgid "Twitter"
+msgstr ""
+
+#: admin/functions.php:15 css/functions.php:15
+msgid "Google +"
+msgstr ""
+
+#: admin/functions.php:17 css/functions.php:17
+msgid "Youtube"
+msgstr ""
+
+#: admin/functions.php:19
+msgid "Dribbble"
+msgstr ""
+
+#: admin/functions.php:21 css/functions.php:21
+msgid "Vimeo"
+msgstr ""
+
+#: admin/functions.php:23 css/functions.php:23
+msgid "Stumbleupon"
+msgstr ""
+
+#: admin/functions.php:25 css/functions.php:25
+msgid "Tumblr"
+msgstr ""
+
+#: admin/functions.php:27 css/functions.php:27
+msgid "Instagram"
+msgstr ""
+
+#: admin/functions.php:29 css/functions.php:29
+msgid "RSS Feed"
+msgstr ""
+
+#: admin/functions.php:31 css/functions.php:31
+msgid "Global Settings"
+msgstr ""
+
+#: admin/functions.php:42 css/functions.php:42
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/templates/dribble_credential.php:72
+#: admin/templates/facebook_credential.php:70
+#: admin/templates/gloabl_settings.php:103
+#: admin/templates/google_credential.php:72
+#: admin/templates/instagram_credential.php:68
+#: admin/templates/rss_credential.php:73
+#: admin/templates/stumbleupon_credential.php:72
+#: admin/templates/tumblr_credential.php:70
+#: admin/templates/twitter_credential.php:77
+#: admin/templates/vimeo_credential.php:74
+#: admin/templates/youtube_credential.php:72
+msgid "Your settings were updated"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:77
+msgid "Easy Social Stream - Dribbble Settings"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:81
+#: admin/templates/facebook_credential.php:79
+#: admin/templates/google_credential.php:81
+#: admin/templates/instagram_credential.php:78
+#: admin/templates/twitter_credential.php:86
+msgid "Visit"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:81
+msgid ""
+"and log into your account to register your app. You can register your app in "
+"your profile settings area under Applications."
+msgstr ""
+
+#: admin/templates/dribble_credential.php:88
+msgid "Enable Dribbble Stream?"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:90
+#: admin/templates/dribble_credential.php:125
+#: admin/templates/dribble_credential.php:133
+#: admin/templates/dribble_credential.php:141
+#: admin/templates/dribble_credential.php:149
+#: admin/templates/dribble_credential.php:157
+#: admin/templates/facebook_credential.php:88
+#: admin/templates/facebook_credential.php:128
+#: admin/templates/facebook_credential.php:135
+#: admin/templates/facebook_credential.php:143
+#: admin/templates/facebook_credential.php:151
+#: admin/templates/gloabl_settings.php:249
+#: admin/templates/gloabl_settings.php:302
+#: admin/templates/google_credential.php:92
+#: admin/templates/google_credential.php:127
+#: admin/templates/google_credential.php:134
+#: admin/templates/google_credential.php:142
+#: admin/templates/google_credential.php:150
+#: admin/templates/google_credential.php:157
+#: admin/templates/instagram_credential.php:88
+#: admin/templates/instagram_credential.php:116
+#: admin/templates/instagram_credential.php:124
+#: admin/templates/instagram_credential.php:132
+#: admin/templates/instagram_credential.php:140
+#: admin/templates/rss_credential.php:87 admin/templates/rss_credential.php:116
+#: admin/templates/rss_credential.php:124
+#: admin/templates/rss_credential.php:132
+#: admin/templates/rss_credential.php:140
+#: admin/templates/rss_credential.php:148
+#: admin/templates/rss_credential.php:156
+#: admin/templates/stumbleupon_credential.php:86
+#: admin/templates/stumbleupon_credential.php:116
+#: admin/templates/stumbleupon_credential.php:124
+#: admin/templates/stumbleupon_credential.php:132
+#: admin/templates/stumbleupon_credential.php:140
+#: admin/templates/stumbleupon_credential.php:148
+#: admin/templates/stumbleupon_credential.php:156
+#: admin/templates/tumblr_credential.php:84
+#: admin/templates/tumblr_credential.php:113
+#: admin/templates/tumblr_credential.php:121
+#: admin/templates/tumblr_credential.php:129
+#: admin/templates/tumblr_credential.php:137
+#: admin/templates/tumblr_credential.php:145
+#: admin/templates/twitter_credential.php:95
+#: admin/templates/twitter_credential.php:144
+#: admin/templates/twitter_credential.php:152
+#: admin/templates/twitter_credential.php:160
+#: admin/templates/twitter_credential.php:168
+#: admin/templates/twitter_credential.php:176
+#: admin/templates/vimeo_credential.php:89
+#: admin/templates/vimeo_credential.php:119
+#: admin/templates/vimeo_credential.php:127
+#: admin/templates/vimeo_credential.php:135
+#: admin/templates/vimeo_credential.php:143
+#: admin/templates/vimeo_credential.php:151
+#: admin/templates/vimeo_credential.php:166
+#: admin/templates/vimeo_credential.php:173
+#: admin/templates/youtube_credential.php:86
+#: admin/templates/youtube_credential.php:117
+#: admin/templates/youtube_credential.php:125
+#: admin/templates/youtube_credential.php:133
+#: admin/templates/youtube_credential.php:141
+#: admin/templates/youtube_credential.php:149
+#: admin/templates/youtube_credential.php:163
+msgid "Yes"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:91
+#: admin/templates/dribble_credential.php:126
+#: admin/templates/dribble_credential.php:134
+#: admin/templates/dribble_credential.php:142
+#: admin/templates/dribble_credential.php:150
+#: admin/templates/dribble_credential.php:158
+#: admin/templates/facebook_credential.php:89
+#: admin/templates/facebook_credential.php:129
+#: admin/templates/facebook_credential.php:136
+#: admin/templates/facebook_credential.php:144
+#: admin/templates/facebook_credential.php:152
+#: admin/templates/gloabl_settings.php:248
+#: admin/templates/gloabl_settings.php:301
+#: admin/templates/google_credential.php:93
+#: admin/templates/google_credential.php:128
+#: admin/templates/google_credential.php:135
+#: admin/templates/google_credential.php:143
+#: admin/templates/google_credential.php:151
+#: admin/templates/google_credential.php:158
+#: admin/templates/instagram_credential.php:89
+#: admin/templates/instagram_credential.php:117
+#: admin/templates/instagram_credential.php:125
+#: admin/templates/instagram_credential.php:133
+#: admin/templates/instagram_credential.php:141
+#: admin/templates/rss_credential.php:88 admin/templates/rss_credential.php:117
+#: admin/templates/rss_credential.php:125
+#: admin/templates/rss_credential.php:133
+#: admin/templates/rss_credential.php:141
+#: admin/templates/rss_credential.php:149
+#: admin/templates/rss_credential.php:157
+#: admin/templates/stumbleupon_credential.php:87
+#: admin/templates/stumbleupon_credential.php:117
+#: admin/templates/stumbleupon_credential.php:125
+#: admin/templates/stumbleupon_credential.php:133
+#: admin/templates/stumbleupon_credential.php:141
+#: admin/templates/stumbleupon_credential.php:149
+#: admin/templates/stumbleupon_credential.php:157
+#: admin/templates/tumblr_credential.php:85
+#: admin/templates/tumblr_credential.php:114
+#: admin/templates/tumblr_credential.php:122
+#: admin/templates/tumblr_credential.php:130
+#: admin/templates/tumblr_credential.php:138
+#: admin/templates/tumblr_credential.php:146
+#: admin/templates/twitter_credential.php:96
+#: admin/templates/twitter_credential.php:145
+#: admin/templates/twitter_credential.php:153
+#: admin/templates/twitter_credential.php:161
+#: admin/templates/twitter_credential.php:169
+#: admin/templates/twitter_credential.php:177
+#: admin/templates/vimeo_credential.php:90
+#: admin/templates/vimeo_credential.php:120
+#: admin/templates/vimeo_credential.php:128
+#: admin/templates/vimeo_credential.php:136
+#: admin/templates/vimeo_credential.php:144
+#: admin/templates/vimeo_credential.php:152
+#: admin/templates/vimeo_credential.php:167
+#: admin/templates/vimeo_credential.php:174
+#: admin/templates/youtube_credential.php:87
+#: admin/templates/youtube_credential.php:118
+#: admin/templates/youtube_credential.php:126
+#: admin/templates/youtube_credential.php:134
+#: admin/templates/youtube_credential.php:142
+#: admin/templates/youtube_credential.php:150
+#: admin/templates/youtube_credential.php:164
+msgid "No"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:94
+#: admin/templates/facebook_credential.php:92
+#: admin/templates/google_credential.php:96
+#: admin/templates/instagram_credential.php:92
+#: admin/templates/rss_credential.php:91
+#: admin/templates/stumbleupon_credential.php:90
+#: admin/templates/tumblr_credential.php:88
+#: admin/templates/twitter_credential.php:99
+#: admin/templates/vimeo_credential.php:93
+#: admin/templates/vimeo_credential.php:155
+#: admin/templates/youtube_credential.php:90
+#: admin/templates/youtube_credential.php:153
+msgid "NOTE"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:95
+#: admin/templates/facebook_credential.php:93
+#: admin/templates/google_credential.php:97
+#: admin/templates/instagram_credential.php:93
+#: admin/templates/rss_credential.php:92
+#: admin/templates/stumbleupon_credential.php:91
+#: admin/templates/tumblr_credential.php:89
+#: admin/templates/twitter_credential.php:100
+#: admin/templates/vimeo_credential.php:94
+#: admin/templates/youtube_credential.php:91
+msgid "this option can be overridden with the"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:97
+#: admin/templates/facebook_credential.php:95
+#: admin/templates/gloabl_settings.php:202
+#: admin/templates/google_credential.php:99
+#: admin/templates/instagram_credential.php:95
+#: admin/templates/rss_credential.php:94
+#: admin/templates/stumbleupon_credential.php:93
+#: admin/templates/tumblr_credential.php:91
+#: admin/templates/twitter_credential.php:102
+#: admin/templates/vimeo_credential.php:96
+#: admin/templates/youtube_credential.php:93
+msgid "shortcode parameter."
+msgstr ""
+
+#: admin/templates/dribble_credential.php:103
+#: admin/templates/stumbleupon_credential.php:99
+#: admin/templates/tumblr_credential.php:96
+msgid "Username"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:108
+#: admin/templates/instagram_credential.php:100
+msgid "Access Token"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:114
+#: admin/templates/facebook_credential.php:117
+#: admin/templates/google_credential.php:116
+#: admin/templates/instagram_credential.php:106
+#: admin/templates/rss_credential.php:105
+#: admin/templates/stumbleupon_credential.php:105
+#: admin/templates/tumblr_credential.php:102
+#: admin/templates/twitter_credential.php:133
+#: admin/templates/vimeo_credential.php:108
+#: admin/templates/youtube_credential.php:106
+msgid "Content to include in stream output:"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:117
+#: admin/templates/facebook_credential.php:120
+#: admin/templates/google_credential.php:119
+#: admin/templates/instagram_credential.php:109
+#: admin/templates/rss_credential.php:108
+#: admin/templates/stumbleupon_credential.php:108
+#: admin/templates/tumblr_credential.php:105
+#: admin/templates/twitter_credential.php:136
+#: admin/templates/vimeo_credential.php:111
+#: admin/templates/youtube_credential.php:109
+msgid "Post Limit"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:119
+#: admin/templates/facebook_credential.php:122
+#: admin/templates/google_credential.php:121
+#: admin/templates/rss_credential.php:110
+#: admin/templates/stumbleupon_credential.php:110
+#: admin/templates/tumblr_credential.php:107
+#: admin/templates/twitter_credential.php:138
+#: admin/templates/vimeo_credential.php:113
+#: admin/templates/youtube_credential.php:111
+msgid "Set the number of posts you wish to display - this value is required."
+msgstr ""
+
+#: admin/templates/dribble_credential.php:123
+#: admin/templates/google_credential.php:125
+#: admin/templates/instagram_credential.php:114
+#: admin/templates/rss_credential.php:114
+#: admin/templates/stumbleupon_credential.php:114
+#: admin/templates/tumblr_credential.php:111
+#: admin/templates/twitter_credential.php:142
+#: admin/templates/vimeo_credential.php:117
+#: admin/templates/youtube_credential.php:115
+msgid "Display Name?"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:131
+#: admin/templates/facebook_credential.php:126
+#: admin/templates/google_credential.php:133
+#: admin/templates/twitter_credential.php:150
+#: admin/templates/youtube_credential.php:123
+msgid "Display Message?"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:139
+#: admin/templates/facebook_credential.php:134
+#: admin/templates/google_credential.php:140
+#: admin/templates/instagram_credential.php:122
+#: admin/templates/rss_credential.php:138
+#: admin/templates/stumbleupon_credential.php:130
+#: admin/templates/tumblr_credential.php:127
+#: admin/templates/vimeo_credential.php:133
+msgid "Display Link?"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:147
+#: admin/templates/facebook_credential.php:141
+#: admin/templates/instagram_credential.php:130
+#: admin/templates/rss_credential.php:146
+#: admin/templates/stumbleupon_credential.php:138
+#: admin/templates/tumblr_credential.php:135
+#: admin/templates/twitter_credential.php:166
+msgid "Display Image?"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:155
+#: admin/templates/facebook_credential.php:149
+#: admin/templates/google_credential.php:156
+#: admin/templates/instagram_credential.php:138
+#: admin/templates/rss_credential.php:154
+#: admin/templates/stumbleupon_credential.php:146
+#: admin/templates/tumblr_credential.php:143
+#: admin/templates/twitter_credential.php:174
+#: admin/templates/vimeo_credential.php:172
+#: admin/templates/youtube_credential.php:162
+msgid "Display Time?"
+msgstr ""
+
+#: admin/templates/dribble_credential.php:163
+#: admin/templates/facebook_credential.php:156
+#: admin/templates/gloabl_settings.php:347
+#: admin/templates/google_credential.php:162
+#: admin/templates/instagram_credential.php:145
+#: admin/templates/rss_credential.php:161
+#: admin/templates/stumbleupon_credential.php:161
+#: admin/templates/tumblr_credential.php:150
+#: admin/templates/twitter_credential.php:181
+#: admin/templates/vimeo_credential.php:178
+#: admin/templates/youtube_credential.php:168
+msgid "Save Settings"
+msgstr ""
+
+#: admin/templates/facebook_credential.php:75
+msgid "Easy Social Stream - Facebook Settings"
+msgstr ""
+
+#: admin/templates/facebook_credential.php:79
+#: admin/templates/google_credential.php:81
+#: admin/templates/instagram_credential.php:78
+#: admin/templates/twitter_credential.php:86
+msgid "to register your app"
+msgstr ""
+
+#: admin/templates/facebook_credential.php:86
+msgid "Enable Facebook Steam?"
+msgstr ""
+
+#: admin/templates/facebook_credential.php:101
+msgid "Page ID"
+msgstr ""
+
+#: admin/templates/facebook_credential.php:106
+msgid "App ID"
+msgstr ""
+
+#: admin/templates/facebook_credential.php:111
+msgid "App Secret"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:108
+msgid "Easy Social Stream - Global Settings"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:112
+msgid "Use shortcode"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:112
+msgid "to display your social stream"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:114
+msgid "View Shortcode Options"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:118
+msgid ""
+"You can use the following shortcode parameters to override global options - "
+"this is useful if you want to display social streams on multiple pages with "
+"different configurations."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:121
+#: admin/templates/gloabl_settings.php:126
+#: admin/templates/gloabl_settings.php:131
+#: admin/templates/gloabl_settings.php:136
+#: admin/templates/gloabl_settings.php:141
+#: admin/templates/gloabl_settings.php:146
+#: admin/templates/gloabl_settings.php:151
+#: admin/templates/gloabl_settings.php:156
+#: admin/templates/gloabl_settings.php:161
+#: admin/templates/gloabl_settings.php:166
+#: admin/templates/gloabl_settings.php:171
+#: admin/templates/gloabl_settings.php:176
+msgid "The"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:121
+#: admin/templates/gloabl_settings.php:131
+#: admin/templates/gloabl_settings.php:136
+#: admin/templates/gloabl_settings.php:141
+#: admin/templates/gloabl_settings.php:146
+#: admin/templates/gloabl_settings.php:151
+#: admin/templates/gloabl_settings.php:156
+#: admin/templates/gloabl_settings.php:161
+#: admin/templates/gloabl_settings.php:166
+#: admin/templates/gloabl_settings.php:171
+#: admin/templates/gloabl_settings.php:176
+msgid "parameter accepts a value of"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:121
+#: admin/templates/gloabl_settings.php:131
+#: admin/templates/gloabl_settings.php:136
+#: admin/templates/gloabl_settings.php:141
+#: admin/templates/gloabl_settings.php:146
+#: admin/templates/gloabl_settings.php:151
+#: admin/templates/gloabl_settings.php:156
+#: admin/templates/gloabl_settings.php:161
+#: admin/templates/gloabl_settings.php:166
+#: admin/templates/gloabl_settings.php:171
+#: admin/templates/gloabl_settings.php:176
+msgid "or"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:121
+msgid "and is used to enable or disable the filter menu."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:126
+msgid "parameter accepts 1 of 4 values:"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:126
+msgid "Use this parameter to change the color styling of the posts."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:131
+msgid "and is used to enable or disable the Facebook stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:136
+msgid "and is used to enable or disable the Twitter stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:141
+msgid "and is used to enable or disable the Google + stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:146
+msgid "and is used to enable or disable the Youtube stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:151
+msgid "and is used to enable or disable the Dribble stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:156
+msgid "and is used to enable or disable the Vimeo stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:161
+msgid "and is used to enable or disable the Stumbleupon stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:166
+msgid "and is used to enable or disable the Tumblr stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:171
+msgid "and is used to enable or disable the Instagram stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:176
+msgid "and is used to enable or disable the RSS stream."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:180
+msgid ""
+"These shortcodes can be used in any combination you desire. The following "
+"shortcode sample is configured to display only two social streams and the "
+"filter menu with a classic mode color setting:"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:191
+msgid "Post Color Mode"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:193
+msgid "Classic"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:194
+msgid "Dark"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:195
+msgid "Light"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:196
+msgid "Custom"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:200
+msgid "NOTE: This option can be overriden with the "
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:210
+msgid "Post Color Options"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:212
+msgid "Post Background Color"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:215
+msgid "Post Content Color"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:218
+msgid "Post Panel Color"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:221
+msgid "Post Panel Font Color"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:231
+msgid "Order By"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:233
+msgid "Date Posted"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:234
+msgid "Random"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:239
+msgid "Animation Speed"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:241
+msgid ""
+"Control the posts transition speed by entering a positive integer value. A "
+"value of around 1 is recommended."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:246
+msgid "Enable Fixed Width?"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:265
+msgid "Fixed Width Settings:"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:268
+msgid "Post Width"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:273
+msgid "Margin Top"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:278
+msgid "Margin Right"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:283
+msgid "Margin Bottom"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:288
+msgid "Margin Left"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:299
+msgid "Open links in new window?"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:306
+msgid "Caching"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:308
+#: admin/templates/gloabl_settings.php:317
+msgid "On"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:309
+#: admin/templates/gloabl_settings.php:318
+msgid "Off"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:311
+msgid ""
+"This option enables session caching for faster load times. If this option is "
+"enabled the social stream will update every 30 minutes. You may want to "
+"disable this option while making changes."
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:315
+msgid "Filter Menu"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:325
+msgid "Filter Menu Options"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:327
+msgid "Filter Button Border Radius"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:330
+msgid "Filter Button Background Color"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:333
+msgid "Filter Active Button Background Color"
+msgstr ""
+
+#: admin/templates/gloabl_settings.php:343
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/templates/google_credential.php:77
+msgid "Easy Social Stream - Google Settings"
+msgstr ""
+
+#: admin/templates/google_credential.php:90
+msgid "Enable Google Stream?"
+msgstr ""
+
+#: admin/templates/google_credential.php:105
+msgid "User ID"
+msgstr ""
+
+#: admin/templates/google_credential.php:110
+msgid "API Key"
+msgstr ""
+
+#: admin/templates/google_credential.php:148
+#: admin/templates/vimeo_credential.php:141
+#: admin/templates/vimeo_credential.php:157
+#: admin/templates/youtube_credential.php:139
+#: admin/templates/youtube_credential.php:155
+msgid "Display Thumbnail?"
+msgstr ""
+
+#: admin/templates/instagram_credential.php:74
+msgid "Easy Social Stream - Instagram Settings"
+msgstr ""
+
+#: admin/templates/instagram_credential.php:86
+msgid "Enable Instagram Stream?"
+msgstr ""
+
+#: admin/templates/rss_credential.php:78
+msgid "Easy Social Stream - RSS Settings"
+msgstr ""
+
+#: admin/templates/rss_credential.php:85
+msgid "Enable RSS Stream?"
+msgstr ""
+
+#: admin/templates/rss_credential.php:99
+msgid "Feed URL"
+msgstr ""
+
+#: admin/templates/rss_credential.php:122
+#: admin/templates/stumbleupon_credential.php:122
+#: admin/templates/tumblr_credential.php:119
+#: admin/templates/vimeo_credential.php:125
+msgid "Display Title?"
+msgstr ""
+
+#: admin/templates/rss_credential.php:130
+msgid "Display Description?"
+msgstr ""
+
+#: admin/templates/stumbleupon_credential.php:77
+msgid "Easy Social Stream - Stumbleupon Settings"
+msgstr ""
+
+#: admin/templates/stumbleupon_credential.php:84
+msgid "Enable Stumbleupon Stream?"
+msgstr ""
+
+#: admin/templates/stumbleupon_credential.php:154
+msgid "Display Views?"
+msgstr ""
+
+#: admin/templates/tumblr_credential.php:75
+msgid "Easy Social Stream - Tumblr Settings"
+msgstr ""
+
+#: admin/templates/tumblr_credential.php:82
+msgid "Enable Tumblr Stream?"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:82
+msgid "Easy Social Stream - Twitter Settings"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:93
+msgid "Enable Twitter Stream?"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:107
+msgid "Screen Name"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:112
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:117
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:122
+msgid "OAuth Access Token"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:127
+msgid "OAuth Access Token Secret"
+msgstr ""
+
+#: admin/templates/twitter_credential.php:158
+msgid "Display Action Links?"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:79
+msgid "Easy Social Stream - Vimeo Settings"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:87
+msgid "Enable Vimeo Stream?"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:102
+msgid "Vimeo Name"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:149
+#: admin/templates/youtube_credential.php:147
+msgid "Display Video?"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:156
+#: admin/templates/youtube_credential.php:154
+msgid "this option only applies if the"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:158
+#: admin/templates/youtube_credential.php:156
+msgid "option is set to"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:158
+#: admin/templates/youtube_credential.php:156
+msgid "NO"
+msgstr ""
+
+#: admin/templates/vimeo_credential.php:164
+msgid "Display Duration?"
+msgstr ""
+
+#: admin/templates/youtube_credential.php:77
+msgid "Easy Social Stream - Youtube Settings"
+msgstr ""
+
+#: admin/templates/youtube_credential.php:84
+msgid "Enable YouTube Stream?"
+msgstr ""
+
+#: admin/templates/youtube_credential.php:99
+msgid "Youtube Channel"
+msgstr ""
+
+#: admin/templates/youtube_credential.php:101
+msgid "Ex."
+msgstr ""
+
+#: admin/templates/youtube_credential.php:131
+msgid "Display Link"
+msgstr ""
+
+#: css/functions.php:19
+msgid "Dribble"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.pulsarmedia.ca"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds social stream capabilities to your website with many social "
+"sites"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Micro Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.microthemes.ca"
+msgstr ""
